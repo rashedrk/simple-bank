@@ -1,0 +1,39 @@
+#login-page{
+    padding: 20px;
+    margin: 40px;
+}
+#login-page h1{
+    text-align: center;
+}
+.login-info{
+    padding: 20px;
+    border-radius: 10px;
+}
+#account-details{
+    margin: 60px;
+    padding: 20px;
+}
+.deposit, .withdraw, .balance{
+    text-align: center;
+    color:white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+#account-details{
+    display: none;
+}
+.input-section{
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
+}
