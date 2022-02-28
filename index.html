@@ -20,39 +20,41 @@
         </div>
     </div>
     <div class="container" id="account-details">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="deposit">
-                <h3>Deposit</h3>
-                <h1>$ <span id="deposit-ammount">00</span></h1>
+        <div class="transaction-details">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="deposit">
+                    <h3>Deposit</h3>
+                    <h1>$ <span id="deposit-amount">00</span></h1>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw">
+                    <h3>Withdraw</h3>
+                    <h1>$ <span id="withdraw-amount">00</span></h1>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance">
+                    <h3>Balance</h3>
+                    <h1>$ <span id="balance-amount">142</span></h1>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="withdraw">
-                <h3>Withdraw</h3>
-                <h1>$ <span id="withdraw-ammount">00</span></h1>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="input-section shadow">
+                    <h3 class="mb-3">Deposit</h3>
+                    <input class="form-control mb-3" id="new-deposit" type="text" placeholder="$ amount you want to deposit.">
+                    <button id="deposit-btn" class="btn btn-success">Deposit</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="balance">
-                <h3>Balance</h3>
-                <h1>$ <span id="balance-ammount">142</span></h1>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-6">
-                <div class="input-section shadow">
-                <h3 class="mb-3">Deposit</h3>
-                <input class="form-control mb-3" type="text" placeholder="$ amount you want to deposit.">
-                <button class="btn btn-success">Deposit</button>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input-section shadow">
-                <h3 class="mb-3">Withdraw</h3>
-                <input class="form-control mb-3" type="text" placeholder="$ amount you want to withdraw.">
-                <button class="btn btn-success">Withdraw</button>
+                <div class="col-md-6">
+                    <div class="input-section shadow">
+                    <h3 class="mb-3">Withdraw</h3>
+                    <input class="form-control mb-3" id="new-withdraw" type="text" placeholder="$ amount you want to withdraw.">
+                    <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+                    </div>
                 </div>
             </div>
         </div>
